@@ -26,9 +26,13 @@ mailtrapを使用
 2. メールボックスのIntegrationsから 「laravel 7.x and 8.x」を選択　
 3. .envファイルのMAIL_MAILERからMAIL_ENCRYPTIONまでの項目をコピー＆ペースト　
 4. MAIL_FROM_ADDRESSに任意のメールアドレスを設定
-### 管理者ユーザー
+### ユーザー
+## 管理者ユーザー
 ・メ―ルアドレス : admin@example.com  
 ・パスワード : admin12345
+## 一般ユーザー
+・メ―ルアドレス : user@exmple.com  
+・パスワード : user12345
 ## URL
 ・開発環境：http://localhost/  
 ・phpMyAdmin:：http://localhost:8080/
