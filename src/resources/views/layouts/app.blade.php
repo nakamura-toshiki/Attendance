@@ -15,7 +15,7 @@
         <div class="header">
             <div class="header-inner">
                 <div class="header-logo">
-                    <img class="logo-img" src="{{ asset('storage/logo.svg') }}" alt="ロゴ">
+                    <img class="logo-img" src="{{ asset('storage/images/logo.svg') }}" alt="ロゴ">
                 </div>
                 @if(auth('admin')->user())
                     <div class="header-link__admin">

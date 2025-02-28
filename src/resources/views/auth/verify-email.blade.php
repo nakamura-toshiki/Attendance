@@ -6,24 +6,16 @@
 
 @section('content')
 <div class="mail">
-    <div class="mail-header">
-        <p class="mail-header__txt">認証用のメールを送信しました</p>
-    </div>
-
     <div class="mail-content">
-        @if (session('resent'))
-        <p class="mail-content__txt" role="alert">
-            新規認証メールを再送信しました！
+        <p class="mail-content__txt">
+            登録していただいたメールアドレスに認証メールを送付しました。<br>
+            メール認証を完了してください。
         </p>
-        @endif
-        <p class="mail-resend__txt">
-            このページを閲覧するには、Eメールによる認証が必要です。<br>
-            もし認証用のメールを受け取っていない場合、
-            <form class="mail-resend__form" method="POST" action="{{ route('verification.send') }}">
-                @csrf
-                <button type="submit" class="mail-resend__button">こちらのリンク</button>をクリックして、認証メールを受け取ってください。
-            </form>
-        </p>
+        <a class="mail-link" href="https://mailtrap.io/">認証はこちらから</a>
+        <form class="mail-resend__form" method="POST" action="{{ route('verification.send') }}">
+            @csrf
+            <button type="submit" class="mail-resend__button">認証メールを再送する</button>
+        </form>
     </div>
 </div>
 @endsection
