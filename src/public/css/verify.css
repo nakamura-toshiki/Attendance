@@ -1,0 +1,44 @@
+.header-link__button,
+.logout-button{
+    display: none;
+}
+
+.mail{
+    width: 55%;
+    margin: 25vh auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .mail{
+        width: 90%;
+    }
+}
+
+.mail-header__txt{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.mail-content{
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.mail-content__txt{
+    margin-bottom: 5vh;
+}
+
+.mail-resend__txt{
+    margin: 0;
+}
+
+.mail-resend__button{
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    text-decoration: underline;
+    color: #0073CC;;
+    cursor: pointer;
+}

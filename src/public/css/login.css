@@ -1,0 +1,70 @@
+.header-link,
+.logout-button{
+    display: none;
+}
+
+.auth-form{
+    width: 50%;
+    margin: 10vh auto;
+}
+
+@media screen and (max-width: 768px){
+    .auth-form{
+        width: 60%;
+        margin-top: 15vh;
+    }
+}
+
+.auth-form__heading{
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+.form{
+    width: 100%;
+}
+
+.form-content{
+    width: 100%;
+    margin-bottom: 4vh;
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.form-input{
+    width: 100%;
+    height: 5vh;
+    padding: 0 2%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: larger;
+}
+
+.form-button{
+    width: 100%;
+    height: 5vh;
+    margin-top: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.auth-link{
+    text-align: center;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: #0073CC;
+    display: block;
+}
+
+.error-message{
+    margin: 0;
+    color: red;
+}
