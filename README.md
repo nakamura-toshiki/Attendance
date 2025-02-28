@@ -27,8 +27,8 @@ mailtrapを使用
 3. .envファイルのMAIL_MAILERからMAIL_ENCRYPTIONまでの項目をコピー＆ペースト　
 4. MAIL_FROM_ADDRESSに任意のメールアドレスを設定
 ### 管理者ユーザー
-・メ―ルアドレス admin@example.com  
-・パスワード admin12345
+・メ―ルアドレス : admin@example.com  
+・パスワード : admin12345
 ## URL
 ・開発環境：http://localhost/  
 ・phpMyAdmin:：http://localhost:8080/
