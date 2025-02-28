@@ -37,7 +37,7 @@ Route::prefix('admin')->middleware('guest:admin')->group(function () {
 });
 
 Route::middleware('auth:admin')->group(function () {
-    Route::get('/admin/list', [AdminController::class, 'list'])->name('admin.list');
+    Route::get('/admin/attendance/list', [AdminController::class, 'list'])->name('admin.list');
     Route::get('/admin/staff/list', [AdminController::class, 'staffList'])->name('admin.staff');
     Route::post('/admin/attendance/{attendance_id}', [AdminController::class, 'showEdit'])->name('admin.edit');
     Route::get('/admin/attendance/staff/{user_id}', [AdminController::class, 'person'])->name('admin.person');
