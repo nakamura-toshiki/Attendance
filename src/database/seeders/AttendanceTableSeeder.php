@@ -20,7 +20,7 @@ class AttendanceTableSeeder extends Seeder
 
         $param = [
             'user_id' => $user->id,
-            'date' => Carbon::now()->subDays()->toDateString(),
+            'date' => Carbon::now()->subDays(2)->toDateString(),
             'clock_in' => Carbon::createFromTime(8, 0, 0)->toTimeString(),
             'clock_out' => Carbon::createFromTime(17, 0, 0)->toTimeString(),
             'break_time' => Carbon::createFromTime(1, 0, 0)->toTimeString(),
@@ -30,7 +30,7 @@ class AttendanceTableSeeder extends Seeder
 
         $param = [
             'user_id' => $user->id,
-            'date' => Carbon::now()->toDateString(),
+            'date' => Carbon::now()->subDays()->toDateString(),
             'clock_in' => Carbon::createFromTime(9, 0, 0)->toTimeString(),
             'clock_out' => Carbon::createFromTime(18, 0, 0)->toTimeString(),
             'break_time' => Carbon::createFromTime(1, 0, 0)->toTimeString(),
