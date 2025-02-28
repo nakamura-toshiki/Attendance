@@ -1,0 +1,83 @@
+.attendance{
+    width: 100%;
+    margin: 20vh auto;
+    text-align: center;
+}
+
+.attendance-status{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.5vh 1%;
+    margin-bottom: 4vh;
+    background-color: #C8C8C8;
+    border-radius: 50px;
+}
+
+.attendance-status__txt{
+    margin: 0 auto;
+    font-weight: bold;
+    color: #696969;
+}
+
+.attendance-form{
+    width: 100%;
+    text-align: center;
+}
+
+.attendance-input{
+    display: none;
+}
+
+.attendance-date{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+}
+
+.attendance-time{
+    width: 100%;
+    margin: 2vh auto;
+    font-size: 80px;
+    font-weight: bold;
+    border: none;
+    pointer-events: none;
+}
+
+.attendance-button{
+    width: 13%;
+    height: 7vh;
+    margin-top: 4vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.attendance-buttons{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.break-button{
+    width: 13%;
+    height: 7vh;
+    margin-top: 4vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.attendance-message{
+    margin-top: 8vh;
+    font-weight: bold;
+    font-size: x-large;
+}
