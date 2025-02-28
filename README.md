@@ -41,3 +41,4 @@ mailtrapを使用
 ・Laravel 8  
 ・mysql 8.0.26  
 ・nginx 1.21.1
+![drowio](https://github.com/nakamura-toshiki/Attendance/blob/main/.drawio.png?raw=true)
