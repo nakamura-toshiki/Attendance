@@ -124,7 +124,7 @@
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .list-content__column{
