@@ -21,7 +21,7 @@ DB_PASSWORD=laravel_pass
 6. php artisan db:seed
 ### メール認証
 mailtrapを使用
-1. 以下のリンクから会員登録　
+1. 次のリンクから会員登録　
    https://mailtrap.io/
 2. メールボックスのIntegrationsから 「laravel 7.x and 8.x」を選択　
 3. .envファイルのMAIL_MAILERからMAIL_ENCRYPTIONまでの項目をコピー＆ペースト　
